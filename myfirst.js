@@ -7,5 +7,5 @@ http.createServer(function (req,res) {
 	res.write(req.url);
 	res.end();
 	console.log('Having fun');
-}).listen( process.env.port || 8080);
+}).listen( process.env.PORT || 8080);
 
